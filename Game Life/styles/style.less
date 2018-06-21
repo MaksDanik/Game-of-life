@@ -1,0 +1,38 @@
+@mainColor: #5F81A3;
+@hoverColor: #789ABC;
+
+body {
+    background: #fafafa;
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+
+.wrapper-life {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    .life {
+        border: 3px solid black;
+        
+    }
+    button.start {
+        box-sizing: border-box;
+        font-size: 1.2em;
+        font-family: inherit;
+        padding: 7px 15px;
+        color: white;
+        border: none;
+        background: @mainColor;
+        outline: none;
+        cursor: pointer;
+        &:hover {
+            background: @hoverColor;
+        }
+        &[disabled] {
+            cursor: auto;
+            &:hover {
+                background: @mainColor;
+            }
+        }  
+    }
+}
+

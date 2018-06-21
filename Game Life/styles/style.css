@@ -1,0 +1,32 @@
+body {
+  background: #fafafa;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+.wrapper-life {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrapper-life .life {
+  border: 3px solid black;
+}
+.wrapper-life button.start {
+  box-sizing: border-box;
+  font-size: 1.2em;
+  font-family: inherit;
+  padding: 7px 15px;
+  color: white;
+  border: none;
+  background: #5F81A3;
+  outline: none;
+  cursor: pointer;
+}
+.wrapper-life button.start:hover {
+  background: #789ABC;
+}
+.wrapper-life button.start[disabled] {
+  cursor: auto;
+}
+.wrapper-life button.start[disabled]:hover {
+  background: #5F81A3;
+}
