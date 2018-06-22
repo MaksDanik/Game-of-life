@@ -1,2 +1,2 @@
-let gameOfLife = new Life('.wrapper-life', 50);
+let gameOfLife = new Life('.wrapper-life', 40);
 gameOfLife.renderGameAndBindEvent();

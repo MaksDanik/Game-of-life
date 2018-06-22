@@ -10,10 +10,12 @@ body {
 .wrapper-life .life {
   border: 3px solid black;
 }
-.wrapper-life button.start {
+.wrapper-life button.btn {
   box-sizing: border-box;
   font-size: 1.2em;
   font-family: inherit;
+  margin: 5px;
+  width: 145px;
   padding: 7px 15px;
   color: white;
   border: none;
@@ -21,12 +23,12 @@ body {
   outline: none;
   cursor: pointer;
 }
-.wrapper-life button.start:hover {
+.wrapper-life button.btn:hover {
   background: #789ABC;
 }
-.wrapper-life button.start[disabled] {
+.wrapper-life button.btn[disabled] {
   cursor: auto;
 }
-.wrapper-life button.start[disabled]:hover {
+.wrapper-life button.btn[disabled]:hover {
   background: #5F81A3;
 }
